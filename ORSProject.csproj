@@ -43,11 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="input\Constraint.cs" />
+    <Compile Include="input\Input.cs" />
+    <Compile Include="error_handle\ErrorHandler.cs" />
+    <Compile Include="settings\Config.cs" />
+    <Compile Include="file_handlers\Reader.cs" />
+    <Compile Include="file_handlers\Writer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="settings\Globals.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="algorithm\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
